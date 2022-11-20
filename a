@@ -1,0 +1,15 @@
+[1mdiff --git a/app/views/layouts/application.html.erb b/app/views/layouts/application.html.erb[m
+[1mindex 916c0ed..447b4c7 100644[m
+[1m--- a/app/views/layouts/application.html.erb[m
+[1m+++ b/app/views/layouts/application.html.erb[m
+[36m@@ -11,6 +11,10 @@[m
+   </head>[m
+ [m
+   <body>[m
+[32m+[m[32m    <div class="container">[m
+[32m+[m[32m      <%= render 'layouts/flash_tasks' %>>[m
+[32m+[m[32m    </div>[m
+[32m+[m[41m    [m
+     <%= yield %>[m
+   </body>[m
+ </html>[m
