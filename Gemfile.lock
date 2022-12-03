@@ -219,7 +219,7 @@ DEPENDENCIES
   listen (~> 3.3)
   mysql2 (~> 0.5)
   pagy
-  pg (>= 0.18, < 2.0)
+  pg
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.7)
