@@ -1,6 +1,6 @@
-# fly.toml file generated for tasklist-1485 on 2022-12-03T11:12:13Z
+# fly.toml file generated for aged-thunder-8442 on 2022-12-05T12:27:56Z
 
-app = "tasklist-1485"
+app = "aged-thunder-8442"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

@@ -49,11 +49,10 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
- production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  host: db.twruewgwhssdjzfcroeh.supabase.co
+  host: db.ioiowbxkzqxzbdqibdpy.supabase.co
   database: postgres
   username: postgres
   password: <%= ENV['SUPABASE_DATABASE_PASSWORD'] %>
