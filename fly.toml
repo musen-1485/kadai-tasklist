@@ -1,6 +1,6 @@
-# fly.toml file generated for aged-thunder-8442 on 2022-12-05T12:27:56Z
+# fly.toml file generated for misty-firefly-9289 on 2022-12-05T14:15:34Z
 
-app = "aged-thunder-8442"
+app = "misty-firefly-9289"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
