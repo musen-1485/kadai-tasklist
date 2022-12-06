@@ -1,6 +1,6 @@
-# fly.toml file generated for misty-firefly-9289 on 2022-12-05T14:15:34Z
+# fly.toml file generated for tasklist-0729 on 2022-12-06T01:22:24Z
 
-app = "misty-firefly-9289"
+app = "tasklist-0729"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
