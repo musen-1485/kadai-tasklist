@@ -4,7 +4,7 @@ class TasksController < ApplicationController
     before_action :correct_user, only: [:show, :update, :destroy]
     
     def index
-        @pagy, @tasks = pagy(Task.order(id: :desc), items:3)
+        @pagy, @tasks = pagy(current_user.tasks.order(id: :desc), items:3)
     end
 
     def new
@@ -42,6 +42,10 @@ class TasksController < ApplicationController
       
       flash[:success] = 'Task は正常に削除されました'
       redirect_to tasks_url
+  end
+  
+  def edit
+  @task = Task.find(params[:id])
   end
   
   private
